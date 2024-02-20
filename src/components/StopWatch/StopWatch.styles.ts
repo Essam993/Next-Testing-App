@@ -7,13 +7,13 @@ export const WattchWrapper = styled(Col)`
     align-items: center;
     div{
         width: 400px;
-        height: 400px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
         border: 1px solid lightgray;
         box-shadow: 0 2px 14px 0 lightgray;
-        border-radius: 50%;
+        border-radius: 10px;
         font-size: 50px;
         font-weight: bold;
     }
