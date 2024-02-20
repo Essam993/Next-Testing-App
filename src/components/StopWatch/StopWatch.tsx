@@ -99,11 +99,3 @@ const Stopwatch: React.FC = () => {
 }
 
 export default Stopwatch
->
-                </Col>
-            </Row>
-        </>
-    );
-};
-
-export default Stopwatch;
