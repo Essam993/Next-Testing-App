@@ -1,6 +1,16 @@
-import { Tabs } from "antd";
-import styled from "styled-components";
+import { Tabs } from 'antd'
+import styled from 'styled-components'
 
+export const StyledClock = styled.p`
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    span{
+        color: orange
+    }
+`
 export const Styledtabs = styled(Tabs)`
     padding: 10px;
     height: 100vh;

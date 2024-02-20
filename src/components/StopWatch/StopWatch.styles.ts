@@ -1,5 +1,5 @@
-import { Col } from "antd";
-import styled from "styled-components";
+import { Col } from 'antd'
+import styled from 'styled-components'
 
 export const WattchWrapper = styled(Col)`
     display: flex;
@@ -18,7 +18,6 @@ export const WattchWrapper = styled(Col)`
         font-weight: bold;
     }
 `
-
 
 export const ActionWrapper = styled(Col)`
     margin-top: 20px;

@@ -1,5 +1,5 @@
 // stickyNoteApp.styles.ts
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 const StickyNoteWrapper = styled.div<{ priority: string }>`
   display: block;
@@ -33,20 +33,19 @@ const StickyNoteWrapper = styled.div<{ priority: string }>`
   .action{
     background: black;
   }
-`;
+`
 
 const getBackgroundColor = (priority: string): string => {
-    switch (priority) {
-      case 'Low':
-        return '#7fff7f4a'; // Green color for Low priority
-      case 'Medium':
-        return '#ffd70045'; // Yellow color for Medium priority
-      case 'High':
-        return '#ff63474f'; // Red color for High priority
-      default:
-        return '#d3d3d336'; // Default color if priority is unknown
-    }
-  };
-  
-  export { StickyNoteWrapper, getBackgroundColor };
-  
+  switch (priority) {
+    case 'Low':
+      return '#7fff7f4a' // Green color for Low priority
+    case 'Medium':
+      return '#ffd70045' // Yellow color for Medium priority
+    case 'High':
+      return '#ff63474f' // Red color for High priority
+    default:
+      return '#d3d3d336' // Default color if priority is unknown
+  }
+}
+
+export { StickyNoteWrapper, getBackgroundColor }
